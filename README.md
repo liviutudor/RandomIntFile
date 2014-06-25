@@ -20,8 +20,8 @@ Running it via java -jar
 
 * if `number of integers` is not specified, then it is assumed to be 1,000,000 (1 mil)
 * if `min` and `max` are not specified (they need to be specified together) the following values are assumed:
-** `min` = 0
-** `max` = `Integer.MAX_INT`
+	* `min` = 0
+	* `max` = `Integer.MAX_INT`
 
 
 Running it via maven
