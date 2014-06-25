@@ -4,7 +4,7 @@
 	<groupId>liv</groupId>
 	<artifactId>random-file</artifactId>
 	<packaging>jar</packaging>
-	<version>1.0-SNAPSHOT</version>
+	<version>1.1-SNAPSHOT</version>
 	<name>random-int-file</name>
 	<description>Creates a text file with random generated integers</description>
 	<url>http://liviutudor.com</url>
