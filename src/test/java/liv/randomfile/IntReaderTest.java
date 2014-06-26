@@ -12,7 +12,7 @@ import org.junit.Test;
 import org.junit.rules.TemporaryFolder;
 
 /**
- * Unit test for {@link IntReader}.
+ * Unit test for {@link IntFileReader}.
  *
  * @author Liviu Tudor http://about.me/liviutudor
  */
@@ -39,7 +39,7 @@ public class IntReaderTest {
         int arr[] = new int[] {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
         String testFile = getTestFile();
         writeFile(testFile, arr);
-        IntReader r = new IntReader(testFile);
+        IntFileReader r = new IntFileReader(testFile);
         r.read();
         int result[] = r.getArray();
         assertEquals(result.length, arr.length);
